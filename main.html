@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" href="Assets/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="dashboard-header">
+    <img src="Assets/logo.jpeg" alt="Farm Rental Logo" class="dashboard-logo">
+    <nav>
+      <ul class="dashboard-nav">
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fa fa-tractor"></i> Equipment</a></li>
+        <li><a href="#"><i class="fa fa-calendar"></i> Rentals</a></li>
+        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+        <li><a href="index.html"><i class="fa fa-sign-out-alt"></i> Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="dashboard-main">
+    <section class="dashboard-welcome">
+      <h2>Welcome to Your Farm Rental Dashboard!</h2>
+      <p>Manage your equipment, view rental history, and update your profile all in one place.</p>
+    </section>
+    <section class="dashboard-cards">
+      <div class="dashboard-card">
+        <i class="fa fa-tractor fa-2x"></i>
+        <h3>Browse Equipment</h3>
+        <p>Find and rent the best farm equipment for your needs.</p>
+        <a href="#" class="dashboard-btn">View Equipment</a>
+      </div>
+      <div class="dashboard-card">
+        <i class="fa fa-calendar fa-2x"></i>
+        <h3>My Rentals</h3>
+        <p>Check your current and past rental orders.</p>
+        <a href="#" class="dashboard-btn">View Rentals</a>
+      </div>
+      <div class="dashboard-card">
+        <i class="fa fa-user fa-2x"></i>
+        <h3>Profile</h3>
+        <p>Update your personal information and preferences.</p>
+        <a href="#" class="dashboard-btn">Edit Profile</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
